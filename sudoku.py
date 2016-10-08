@@ -302,9 +302,8 @@ def getSuccessors(board):
 def solve(config):
     """
     Generic backtracking solver.
-        config: the current config (SkyscraperConfig)
-        debug: print debug output? (Bool)
-    Returns:  A config (SkyscraperConfig), if valid, None otherwise
+        config: the current config
+    Returns:  A config, if valid, None otherwise
     """
     
     if isGoal(config):
